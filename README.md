@@ -40,7 +40,7 @@ JSON:\
          "telefone": "99 9999999"     
     }
 
-## 5. Excluir
+## 5. Remove
 Method: DELETE\
 URL: //HOST/clientes/{id}\
      
