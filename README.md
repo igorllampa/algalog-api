@@ -25,9 +25,9 @@ Method: POST\
 URL: //HOST/clientes\
 JSON:\
     {
-         "nome": "test",
-         "email": "test@test.com",
-         "telefone": "99 9999999"     
+         "nome": "test",\
+         "email": "test@test.com",\
+         "telefone": "99 9999999"  \   
     }
               
 ## 4. Update a cliente:
@@ -35,9 +35,9 @@ Method: PUT\
 URL: //HOST/clientes/{id}\
 JSON:\
     {
-         "nome": "test-2",
-         "email": "test@test.com",
-         "telefone": "99 9999999"     
+         "nome": "test-2",\
+         "email": "test@test.com",\
+         "telefone": "99 9999999"  \   
     }
 
 ## 5. Remove
