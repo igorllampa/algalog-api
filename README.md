@@ -45,6 +45,51 @@ Method: DELETE\
 URL: //HOST/clientes/{id}\
      
      
+# Entregas:
+## 1. List: 
+Method: GET\
+URL: //HOST/entregas\
+
+## 2. Get a specific entrega:
+Method: GET\
+URL: //HOST/entergas/{id}\
+              
+## 3. Require entrega:
+Method: POST\
+URL: //HOST/entregas\
+JSON:\
+   {
+    "cliente":{
+        "id": 2\
+    },
+    "destinatario":{
+        "nome": "Felipe",\
+        "logradouro": "Rua de teste",\
+        "numero": "100",\
+        "bairro": "Centro",\
+        "complemento": "complemento"\        
+    },
+    "taxa": 100.50\
+}
+              
+## 4. Conclude a entrega:
+Method: PUT\
+URL: //HOST/entregas/{id}/finalizacao\
+
+# Ocorrências:
+## 1. Register: 
+Method: POST\
+URL: //HOST/entregas/{id}/ocorrencias\
+JSON:\
+{    
+    "descricao": "Tentativa de entrega"\
+}
+
+## 2. List: 
+Method: GET\
+URL: //HOST/entregas/{id}/ocorrencias\
+
+
 #### PS: 
 - [x] The Software Postman Client was used to execute the tests with the developed REST API.
 - [x] The databased used for testing is Mysql running on ........ (Amazon or Heroku);
