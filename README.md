@@ -72,7 +72,7 @@ JSON:\
     "taxa": 100.50\
 }
               
-## 4. Conclude a entrega:
+## 4. Conclude entrega:
 Method: PUT\
 URL: //HOST/entregas/{id}/finalizacao\
 
@@ -92,5 +92,4 @@ URL: //HOST/entregas/{id}/ocorrencias\
 
 #### PS: 
 - [x] The Software Postman Client was used to execute the tests with the developed REST API.
-- [x] The databased used for testing is Mysql running on ........ (Amazon or Heroku);
-- [x] The project linguagens-api is now available for tests in Heroku platform and can be acessed by the following link: ...........
+
